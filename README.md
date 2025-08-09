@@ -1,3 +1,5 @@
 # Daily Verse Python
 
-Taken from <https://git.vdm.dev/christian/daily-scripture>
+Verse catalogue taken from <https://git.vdm.dev/christian/daily-scripture>
+
+`run.py` is your main module
