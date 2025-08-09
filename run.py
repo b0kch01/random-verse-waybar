@@ -1,5 +1,6 @@
 import random
 import json
+import pathlib
 
 
 def load_verses(path):
@@ -25,7 +26,8 @@ if __name__ == "__main__":
     import sys
     seed = sys.argv[-1] if len(sys.argv) > 1 else None
 
-    verses = load_verses("./compiled.json")
+    data_path = __file__[:__file__.rfind('/')] + "/compiled.json"
+    verses = load_verses(data_path)
     verse = daily_verse(verses, seed)
 
     print(waybar_output(verse), flush=True)
