@@ -1,6 +1,5 @@
 import random
 import json
-import pathlib
 
 
 def load_verses(path):
