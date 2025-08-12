@@ -1,12 +1,18 @@
-# Daily Verse Python
+# Daily Verse Waybar Module
+
+```
+Tested on Waybar + Hyprland (Wayland) + Arch
+```
 
 https://github.com/user-attachments/assets/c8dcbb0d-e4f8-4063-bbad-7298e8211623
 
+## Tips
 Verse catalogue taken from <https://git.vdm.dev/christian/daily-scripture>
 
-`run.py` is your main module
+* `run.py` is your main module
+* Other scripts provided for creating your own daily-verse tool
 
-## Example Waybar Config
+## Usage: Example Waybar Config
 
 ```json
 {
